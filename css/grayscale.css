@@ -48,7 +48,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #2ecc16;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -57,7 +57,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #21980f;
 }
 
 .light {
@@ -275,7 +275,9 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+	#000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px; 
+    background: url(../img/walking.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
