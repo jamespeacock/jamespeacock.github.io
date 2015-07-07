@@ -42,6 +42,9 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+.email-text {
+	color: #2ecc16;
+}
 }
 
 a {
@@ -90,6 +93,8 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+	#000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px; 
 }
 
 .navbar-custom .nav li a {
@@ -161,6 +166,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+	
 }
 
 .intro .intro-body .brand-heading {
@@ -169,6 +175,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+	color: #2ECC16;
 }
 
 @media(min-width:768px) {
@@ -308,17 +315,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #2ecc16;
+    color: #2ecc16;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #2ecc16;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #2ecc16;
 }
 
 ul.banner-social-buttons {
