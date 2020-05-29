@@ -42,13 +42,13 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
-.email-text {
-	color: #2ecc16;
-}
+    .email-text {
+	color: @primary;
+    }   
 }
 
 a {
-    color: #2ecc16;
+    color: @primary;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -326,17 +326,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #2ecc16;
-    color: #2ecc16;
+    border: 1px solid @primary;
+    color: @primary;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #2ecc16;
+    border: 1px solid @primary;
     outline: 0;
     color: #000;
-    background-color: #2ecc16;
+    background-color: @primary;
 }
 
 ul.banner-social-buttons {
