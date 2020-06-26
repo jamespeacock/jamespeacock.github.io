@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import { Container } from 'react-bootstrap';
+
 
 const Hero = () => {
 
     const [show, setShow] = useState(false);
+    console.log(show);
 
     return (
         <section id="hero">

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: http://jake-peacock.com/sitemap.xml
-Host: http://jake-peacock.com
+Host: jake-peacock.com

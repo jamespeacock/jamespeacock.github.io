@@ -17,11 +17,6 @@ import Header from '../components/Header';
 const goodappleUrl = "https://goodapplefoods.com"
 const playmakerUrl = "https://playmaker.social"
 
-window.addEventListener('resize', () => {
-    // We execute the same script as before
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
 
 class Homepage extends React.Component {
     render() {

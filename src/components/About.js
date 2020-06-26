@@ -3,8 +3,6 @@ import React from 'react';
 
 const About = () => {
 
-  const siteTitle = "Jake Peacock  - Digital Empowerment";
-
   const fbPicUrl = "https://www.facebook.com/photo.php?fbid=772269566117131&set=t.1439810050&type=3&theater";
   const mixCloudUrl = "https://www.mixcloud.com/tripnologic/";
   const vfaUrl = "https://ventureforamerica.org/"

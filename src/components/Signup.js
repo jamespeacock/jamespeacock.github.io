@@ -4,15 +4,16 @@ import Modal from 'react-bootstrap/Modal';
 const SignupModal = (show, setShow) => {
 
   return (
-    <Modal show={show} onHide={() => setShow(false)}>
+    <modal show={show} onHide={() => setShow(false)}>
       Hello World!
-    </Modal>
+    </modal>
   )
 }
 
 const Signup =  () => {
 
   const [show, setShow] = useState(false)
+  console.log(show)
 
   return (
     <section id="four" className="main style1 special">
