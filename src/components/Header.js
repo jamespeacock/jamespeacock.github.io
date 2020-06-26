@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav  from 'react-bootstrap/Nav';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 
 const Header = (props) => {

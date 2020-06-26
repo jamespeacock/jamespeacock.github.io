@@ -16,7 +16,7 @@ const Signup =  () => {
   console.log(show)
 
   return (
-    <section id="four" className="main style1 special">
+    <section id="signup" className="main style1 special">
       {/*<SignupModal show={false} setShow={setShow} centered/>*/}
       <div className="container">
         <header className="major">
