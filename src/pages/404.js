@@ -15,7 +15,7 @@ const NotFoundPage = () => (
           <div className="container">
               <h4>tbh, it's a 404</h4>
               <ul className="actions uniform">
-                  <li><p><a className="button special" href="/">START OVER?</a></p></li>
+                  <li><a className="button special" href="/">START OVER?</a></li>
                   {/*<li><a href="#" className="button">tell me more</a></li>*/}
               </ul>
           </div>

@@ -936,7 +936,7 @@
 			@include dark();
 			background-attachment:	fixed,							fixed,							fixed;
 			background-image:       url(../images/img_mission.jpg);
-			background-position:	top center,						center center,					center center;
+			background-position:	center center,						center center,					center center;
 			background-size:		100%, 							cover,							cover;
 			background-repeat: no-repeat;
 		}
@@ -945,7 +945,7 @@
 			@include dark();
 			background-attachment:	fixed,							fixed,							fixed;
 			background-image:       url(../images/img_art.jpg);
-			background-position:	top center,						center center,					center center;
+			background-position:	center center,						center center,					center center;
 			background-size:		100%, 							cover,							cover;
 			background-repeat: no-repeat;
 		}
@@ -986,7 +986,7 @@
 		background-color: _palette(dark, bg);
 		background-attachment:	fixed,							fixed,							fixed;
 		background-image:       url(../images/img_construction.jpg);
-		background-position:	top left,						center center,					center center;
+		background-position:	top center,						center center,					center center;
 		background-size:		100%,							cover,							cover;
 		background-repeat: no-repeat;
 		overflow: hidden;
@@ -1156,7 +1156,7 @@
 
 	#footer {
 		@include padding(6em, 0, (0,0,_size(element-margin),0));
-		@include dark(#4686a0);
+		@include dark();
 		background-attachment:	fixed,							fixed,							fixed;
 		background-image:	    url('../images/img_footer.jpg'); //linear-gradient(rgba(238, 238, 238, 0.3), rgba(238, 238, 238, 0.3)),
 		background-position:	bottom center,						center center,					center center;
@@ -1457,7 +1457,7 @@
 
 						> * {
 							margin: 0 !important;
-							width: 100%;
+							width: 10em;
 
 							&.icon {
 								&:before {
@@ -1486,7 +1486,6 @@
 			input[type="button"],
 			.button {
 				padding: 0;
-				width: 5em;
 			}
 
 		/* Main */
